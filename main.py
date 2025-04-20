@@ -1,11 +1,13 @@
+from dotenv import load_dotenv
 from cli.input_handler import InputHandler
-from core.app_global_state import AppGlobalState
 from time import sleep
 
+load_dotenv()
+
 def main():
-  app_global_state = AppGlobalState()
-  input_handler = InputHandler(app_global_state=app_global_state)
+    input_handler = InputHandler()
+    sleep(100000)
 
 main()
 
-sleep(912)
+#sleep(912)

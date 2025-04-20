@@ -13,6 +13,9 @@ pyaudio = "*"
 webrtcvad = "*"
 numpy = "*"
 openai-whisper = "*"
+google-genai = "*"
+sounddevice = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
