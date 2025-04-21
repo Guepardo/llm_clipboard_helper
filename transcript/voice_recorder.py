@@ -11,7 +11,7 @@ class VoiceRecorder(Thread):
     FORMAT = pyaudio.paInt16
     CHUNK_SIZE = int(RATE * CHUNK_DURATION_MS / 1000)  # 480 samples para 30ms
     # 0 (menos sensível) a 3 (mais sensível)
-    HUMAN_VOICE_DETECTOR_SENSIBILITY = 0
+    HUMAN_VOICE_DETECTOR_SENSIBILITY = 1
 
     def __init__(self):
         super().__init__()

@@ -1,13 +1,7 @@
-from dotenv import load_dotenv
-from cli.input_handler import InputHandler
-from time import sleep
+# from cli.input_handler import InputHandler
+# from time import sleep
 
-load_dotenv()
+# input_handler = InputHandler()
 
-def main():
-    input_handler = InputHandler()
-    sleep(100000)
+# sleep(10000)
 
-main()
-
-#sleep(912)
