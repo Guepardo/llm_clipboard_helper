@@ -1,7 +1,7 @@
-# from cli.input_handler import InputHandler
-# from time import sleep
+from cli.input_handler import InputHandler
+from time import sleep
 
-# input_handler = InputHandler()
+input_handler = InputHandler()
 
-# sleep(10000)
+sleep(10000)
 

@@ -28,7 +28,7 @@ class InputHandler:
                 print("Transcribing...")
                 beep()
                 text = self.transcriber.stop_listen()
-                self.response_coordinator.generate_response(text['text'])  # text['text']
+                self.response_coordinator.generate_response(text['text'])
 
     def on_release(self):
         if self.any_key_pressed():
